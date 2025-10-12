@@ -4,20 +4,6 @@ Project M4|L5 / Project U0|L7 / Project V1|L1II / Project Vee3|L3II
 
 ---
 
-Automatic Way:
-
-script to download manifests, sync repo and build:
-
-    curl --create-dirs -L -o build.sh -O -L https://raw.github.com/TeamHackLG/local_manifest/cm-14.1/build.sh
-
-To use:
-
-    source build.sh
-
----
-
-Manual Way:
-
 To initialize LineageOS 14.1 Repo:
 
     repo init -u https://github.com/LineageOS/android.git -b cm-14.1 -g all,-notdefault,-darwin
@@ -26,7 +12,7 @@ To initialize LineageOS 14.1 Repo:
 
 To initialize Manifest for all devices:
 
-    curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.github.com/TeamHackLG/local_manifest/cm-14.1/local_manifest.xml
+    curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.github.com/RodrigoAyuso/local_manifest/cm-14.1/local_manifest.xml
 
 ---
 
