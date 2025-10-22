@@ -12,7 +12,7 @@ To initialize LineageOS 13.0 Repo:
 
 To initialize Manifest for all devices:
 
-    curl --create-dirs -L -o .repo/local_manifests/roomservice.xml -O -L https://raw.github.com/TeamHackLG/local_manifest/cm-13.0/roomservice.xml
+    curl --create-dirs -L -o .repo/local_manifests/roomservice.xml -O -L https://raw.github.com/RodrigoAyuso/local_manifest/cm-13.0/roomservice.xml
 
 ---
 
