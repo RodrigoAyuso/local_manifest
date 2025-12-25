@@ -6,6 +6,9 @@
 	<remote name="ra" fetch="https://github.com/RodrigoAyuso/" />
 	<!-- Prebuilt apps -->
 	<remove-project name="LineageOS/android_packages_apps_Camera2" /> <!-- Using OpenCamera -->
+    <!-- Fix BT -->
+	<remove-project name="LineageOS/android_system_bt" />
+	<project path="system/bt" name="LineageOS/android_system_bt" revision="cm-14.1" remote="ra" />
 	<!-- Adreno STLPort -->
 	<project path="external/stlport" name="android_external_stlport" revision="cm-14.1" remote="lineage" />
 	<!-- MSM7x27a HAL -->
