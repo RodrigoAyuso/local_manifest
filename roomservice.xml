@@ -4,6 +4,9 @@
 	<remove-project name="LineageOS/android_packages_apps_Camera2" /> <!-- Using OpenCamera -->
 	<!-- Adreno STLPort -->
 	<project path="external/stlport" name="LineageOS/android_external_stlport" revision="cm-13.0" remote="github" />
+	<!-- MSM7x27a HAL -->
+	<project path="hardware/qcom/display-caf/msm7x27a" name="RodrigoAyuso/android_hardware_qcom_display-caf_msm7x27a" revision="cm-13.0" remote="github" />
+	<project path="hardware/qcom/media-caf/msm7x27a" name="TeamHackLG/android_hardware_qcom_media-caf_msm7x27a" revision="cm-13.0" remote="github" />
 	<!-- Common Project -->
 	<project path="kernel/lge/msm7x27a-common" name="TeamHackLG/lge-kernel-lproj" revision="android-msm-3.4-mm" remote="github" />
 	<project path="vendor/lge" name="TeamHackLG/proprietary_vendor_lge" revision="cm-13.0" remote="github" />
@@ -12,6 +15,6 @@
 	<project path="device/lge/e610" name="TeamHackLG/android_device_lge_e610" revision="cm-13.0" remote="github" />
 	<project path="device/lge/p700" name="TeamHackLG/android_device_lge_p700" revision="cm-13.0" remote="github" />
 	<!-- Second Generation devices -->
-	<project path="device/lge/v1" name="TeamHackLG/android_device_lge_v1" revision="cm-13.0" remote="github" />
+	<project path="device/lge/v1" name="RodrigoAyuso/android_device_lge_v1" revision="cm-13.0" remote="github" />
 	<project path="device/lge/vee3" name="RodrigoAyuso/android_device_lge_vee3" revision="cm-13.0" remote="github" />
 </manifest>
