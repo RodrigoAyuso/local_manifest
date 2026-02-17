@@ -9,7 +9,7 @@
 	<project path="hardware/qcom/media-caf/msm7x27a" name="TeamHackLG/android_hardware_qcom_media-caf_msm7x27a" revision="cm-13.0" remote="github" />
 	<!-- Common Project -->
 	<project path="kernel/lge/msm7x27a-common" name="TeamHackLG/lge-kernel-lproj" revision="android-msm-3.4-mm" remote="github" />
-	<project path="vendor/lge" name="TeamHackLG/proprietary_vendor_lge" revision="cm-13.0" remote="github" />
+	<project path="vendor/lge" name="RodrigoAyuso/proprietary_vendor_lge" revision="cm-13.0" remote="github" />
 	<project path="device/lge/msm7x27a-common" name="RodrigoAyuso/android_device_lge_msm7x27a-common" revision="cm-13.0" remote="github" />
 	<!-- First Generation devices -->
 	<project path="device/lge/e610" name="TeamHackLG/android_device_lge_e610" revision="cm-13.0" remote="github" />
