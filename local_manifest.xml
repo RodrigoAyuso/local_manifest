@@ -14,7 +14,7 @@
 	<!-- RIL Legacy -->
 	<project path="hardware/ril-legacy" name="android_hardware_ril-legacy" revision="cm-14.1" remote="thlg" />
 	<!-- Common Project -->
-	<project path="kernel/lge/msm7x27a-common" name="lge-kernel-lproj" revision="android-msm-3.4-mm" remote="thlg" />
+	<project path="kernel/lge/msm7x27a-common" name="lge-kernel-lproj" revision="android-msm-3.4-mm" remote="ra" />
 	<project path="vendor/lge" name="proprietary_vendor_lge" revision="cm-14.1" remote="ra" />
 	<project path="device/lge/msm7x27a-common" name="android_device_lge_msm7x27a-common" revision="cm-14.1" remote="ra" />
 	<!-- First Generation devices -->
