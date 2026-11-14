@@ -6,13 +6,13 @@ Project M4|L5 / Project U0|L7 / Project V1|L1II / Project Vee3|L3II
 
 To initialize LineageOS 14.1 Repo:
 
-    repo init -u https://github.com/LineageOS/android.git -b cm-14.1 --git-lfs -g all,-notdefault,-darwin 
+    repo init -u https://github.com/LineageOS/android.git -b lineage-15.1 --git-lfs -g all,-notdefault,-darwin 
 
 ---
 
 To initialize Manifest for all devices:
 
-    curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.github.com/RodrigoAyuso/local_manifest/cm-14.1/local_manifest.xml
+    curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.github.com/RodrigoAyuso/local_manifest/lineage-15.1/local_manifest.xml
 
 ---
 
